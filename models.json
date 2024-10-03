@@ -1,0 +1,91 @@
+[
+	{
+		"folder": "models/grounding-dino",
+		"files": [
+			"https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/GroundingDINO_SwinT_OGC.cfg.py", 
+			"https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/groundingdino_swint_ogc.pth",
+			"https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/GroundingDINO_SwinB.cfg.py",
+			"https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/groundingdino_swinb_cogcoor.pth"
+		]
+	},
+	{
+		"folder": "models/sam2",
+		"files": ["https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt"]
+	},
+	{
+		"folder": "models/unet/IC-Light",
+		"files": ["https://huggingface.co/lllyasviel/ic-light/resolve/main/iclight_sd15_fc.safetensors"]
+	},
+	{
+		"folder": "models/controlnet/SDXL/controlnet-depth-sdxl-1.0",
+		"files": ["https://huggingface.co/xinsir/controlnet-depth-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors"] 
+	},
+	{
+		"folder": "models/clip_vision",
+		"files": [
+			{
+				"url": "https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors",
+				"path": "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+			},
+			{
+				"url": "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/image_encoder/model.safetensors",
+				"path": "CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors"
+			},
+			{
+				"url": "https://huggingface.co/Kwai-Kolors/Kolors-IP-Adapter-Plus/resolve/main/image_encoder/pytorch_model.bin",
+				"path": "clip-vit-large-patch14-336.bin"
+			}
+		]
+	},
+	{
+		"folder": "models/ipadapter",
+		"files": [
+			"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors",
+			"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light_v11.bin",
+			"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors",
+			"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors",
+			"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors", 
+			"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_vit-G.safetensors", 
+			"https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors", 
+			"https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus_sdxl_vit-h.safetensors",
+			"https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl.safetensors", 
+			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15.bin", 
+			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin", 
+			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-portrait-v11_sd15.bin",
+			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl.bin", 
+			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin", 
+			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-portrait_sdxl.bin",
+			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-portrait_sdxl_unnorm.bin" 
+		]
+	},
+	{
+		"folder": "models/loras",
+		"files": [
+			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15_lora.safetensors",
+			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors",
+			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl_lora.safetensors",
+			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors"
+		]
+	},
+	{
+		"folder": "models/checkpoints",
+		"files": [
+			"https://huggingface.co/RunDiffusion/Juggernaut-X-v10/resolve/main/Juggernaut-X-RunDiffusion-NSFW.safetensors",
+			"https://huggingface.co/philz1337x/epicrealism/resolve/main/epicrealism_naturalSinRC1VAE.safetensors"
+		]
+	},
+	{
+		"folder": "models/ultralytics/bbox",
+		"files": ["https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8m.pt"]
+	},
+	{
+		"folder": "models/face_parsing",
+		"files": [
+			"https://huggingface.co/jonathandinu/face-parsing/resolve/main/model.safetensors",
+			"https://huggingface.co/jonathandinu/face-parsing/resolve/main/quantize_config.json",
+			"https://huggingface.co/jonathandinu/face-parsing/resolve/main/preprocessor_config.json",
+			"https://huggingface.co/jonathandinu/face-parsing/resolve/main/config.json"
+		]
+	}
+]
+
