@@ -1,5 +1,6 @@
 [
 	{
+		"comment": "needed by comfyui_segment_anything and ComfyUI-SAM2",
 		"folder": "models/grounding-dino",
 		"files": [
 			"https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/GroundingDINO_SwinT_OGC.cfg.py", 
@@ -9,10 +10,35 @@
 		]
 	},
 	{
-		"folder": "models/sam2",
-		"files": ["https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt"]
+		"comment": "needed by comfyui_segment_anything and ComfyUI-SAM2",
+		"folder": "models/sams",
+		"files": [
+			"https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth",
+			"https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth",
+			"https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth",
+			"https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_tiny.pt",
+			"https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_small.pt",
+			"https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_base_plus.pt",
+			"https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt",
+			"https://huggingface.co/lkeab/hq-sam/resolve/main/sam_hq_vit_h.pth",
+			"https://huggingface.co/lkeab/hq-sam/resolve/main/sam_hq_vit_l.pth",
+			"https://huggingface.co/lkeab/hq-sam/resolve/main/sam_hq_vit_b.pth",
+			"https://github.com/ChaoningZhang/MobileSAM/blob/master/weights/mobile_sam.pt"
+		]
 	},
 	{
+		"comment": "needed by comfyui_segment_anything and ComfyUI-SAM2",
+		"folder": "models/bert-base-uncased",
+		"files": [
+			"https://huggingface.co/google-bert/bert-base-uncased/resolve/main/config.json",
+			"https://huggingface.co/google-bert/bert-base-uncased/resolve/main/model.safetensors",
+			"https://huggingface.co/google-bert/bert-base-uncased/resolve/main/tokenizer_config.json",
+			"https://huggingface.co/google-bert/bert-base-uncased/resolve/main/tokenizer.json",
+			"https://huggingface.co/google-bert/bert-base-uncased/resolve/main/vocab.txt"
+		]
+	},
+	{
+		"comment": "needed by ComfyUI-IC-Light",
 		"folder": "models/unet/IC-Light",
 		"files": ["https://huggingface.co/lllyasviel/ic-light/resolve/main/iclight_sd15_fc.safetensors"]
 	},
@@ -21,6 +47,7 @@
 		"files": ["https://huggingface.co/xinsir/controlnet-depth-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors"] 
 	},
 	{
+		"comment": "needed by ComfyUI_IPAdapter_plus",
 		"folder": "models/clip_vision",
 		"files": [
 			{
@@ -38,6 +65,7 @@
 		]
 	},
 	{
+		"comment": "needed by ComfyUI_IPAdapter_plus",
 		"folder": "models/ipadapter",
 		"files": [
 			"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors",
@@ -59,6 +87,7 @@
 		]
 	},
 	{
+		"comment": "needed by ComfyUI_IPAdapter_plus",
 		"folder": "models/loras",
 		"files": [
 			"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15_lora.safetensors",
@@ -68,6 +97,7 @@
 		]
 	},
 	{
+		"comment": "general models",
 		"folder": "models/checkpoints",
 		"files": [
 			"https://huggingface.co/RunDiffusion/Juggernaut-X-v10/resolve/main/Juggernaut-X-RunDiffusion-NSFW.safetensors",
@@ -75,10 +105,12 @@
 		]
 	},
 	{
+		"comment": "needed by comfyui_face_parsing",
 		"folder": "models/ultralytics/bbox",
 		"files": ["https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8m.pt"]
 	},
 	{
+		"comment": "needed by comfyui_face_parsing",
 		"folder": "models/face_parsing",
 		"files": [
 			"https://huggingface.co/jonathandinu/face-parsing/resolve/main/model.safetensors",
