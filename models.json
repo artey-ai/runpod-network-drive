@@ -1,4 +1,10 @@
 [
+	{
+		"folder": "models/controlnet/SDXL/controlnet-scribble-sdxl-1.0-anime",
+		"files": [
+			"https://huggingface.co/xinsir/controlnet-scribble-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors"
+		]
+	},
  	{
 		"comment": "needed by comfyui_segment_anything",
 		"folder": "models/bert-base-uncased",
