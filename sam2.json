@@ -1,0 +1,33 @@
+[
+    	{
+		"comment": "needed by ComfyUI-SAM2",
+		"folder": "models/grounding-dino",
+		"files": [
+			"https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/GroundingDINO_SwinT_OGC.cfg.py", 
+			"https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/groundingdino_swint_ogc.pth",
+			"https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/GroundingDINO_SwinB.cfg.py",
+			"https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/groundingdino_swinb_cogcoor.pth"
+		]
+	},
+	{
+		"comment": "needed by ComfyUI-SAM2",
+		"folder": "models/sams",
+		"files": [
+			"https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_tiny.pt",
+			"https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_small.pt",
+			"https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_base_plus.pt",
+			"https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt"
+		]
+	},
+	{
+		"comment": "needed by ComfyUI-SAM2",
+		"folder": "models/bert-base-uncased",
+		"files": [
+			"https://huggingface.co/google-bert/bert-base-uncased/resolve/main/config.json",
+			"https://huggingface.co/google-bert/bert-base-uncased/resolve/main/model.safetensors",
+			"https://huggingface.co/google-bert/bert-base-uncased/resolve/main/tokenizer_config.json",
+			"https://huggingface.co/google-bert/bert-base-uncased/resolve/main/tokenizer.json",
+			"https://huggingface.co/google-bert/bert-base-uncased/resolve/main/vocab.txt"
+		]
+	}
+]
