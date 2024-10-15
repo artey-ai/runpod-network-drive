@@ -4,4 +4,7 @@ apt-get update && apt-get install -y \
     git \
     wget
 
-python get_models.py models.json ./
+
+git clone https://github.com/seethroughlab/runpod-network-drive.git
+cd runpod-network-drive
+python3 get_models.py models.json /workspace
